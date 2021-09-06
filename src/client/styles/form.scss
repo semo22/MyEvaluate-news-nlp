@@ -1,0 +1,28 @@
+form {
+    border: 1px solid #545454;
+    border-radius: 3px;
+    padding: 40px;
+}
+
+input {
+    border: 2px solid silver;
+    border-radius: 7px;
+    padding: 5px 20px;
+    width: 95%;
+    line-height: 16px;
+    margin: 10px 0;
+}
+#submitbtn{
+    width: 41%;
+    margin-left: 200px ;
+}
+#results{
+text-align: center;
+}
+#results strong{
+    font-size: 30px;
+}
+#results div{
+    font-size: 22px;
+    color: #817d7d;
+}
