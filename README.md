@@ -12,8 +12,8 @@
  - jest for testing
  
 ## important command
- * `npm run test ` for testing with jest 
-## start the project 
+ * `npm run test ` for testing 
+## to start the project 
  * `npm install ` for installing all dependencies 
  * `npm run build-prod` for building the project with webpack 
  * `npm start` for running server
