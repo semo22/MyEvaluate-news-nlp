@@ -1,7 +1,6 @@
 import {checkForUrl} from './URLChecker'
 
 const postData = async ( url = '', data = {})=>{
-    console.log("fds",data);
       const response = await fetch(url, {
          method: 'POST', 
          credentials: 'same-origin',
@@ -17,7 +16,7 @@ const postData = async ( url = '', data = {})=>{
       console.log("error", error);
       }
   }
- function handleSubmit(event) {
+  function handleSubmit(event) {
     event.preventDefault()
     let url = document.getElementById('name').value
    if(checkForUrl(url)){
